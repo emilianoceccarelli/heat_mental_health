@@ -87,7 +87,7 @@ time <- Sys.time(); mod_nb = gam(formula = n ~ ns.basis + holiday1 + covid + yea
                                    mutate(COD_RIP = factor(COD_RIP))); Sys.time()-time; #summary(mod_nb)
 
 # Predict the overall cumulative exposure-response curve
-pred.temp <- crosspred(ns.basis, mod_nb, from = 1, by=1, cen = 31, ci.level=.9)
+pred.temp <- crosspred(ns.basis, mod_nb, from = 1, by=1, cen = 30, ci.level=.9)
 
 # Plot the estimated relative risk curve
 data.frame(temp = pred.temp$predvar,
