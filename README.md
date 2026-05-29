@@ -2,7 +2,7 @@
 
 This repository contains the R code and anonymized data related to the article:
 
-**Heat-Related Mental Health Hospitalizations in Italy:A Global Sensitivity Analysis Approach to Evaluate Generalized Additive Model Assumptions**
+**Heat-Related Mental Health Hospitalizations in Italy: A Global Sensitivity Analysis Approach to Evaluate Generalized Additive Model Assumptions**
 
 ## Data
 
